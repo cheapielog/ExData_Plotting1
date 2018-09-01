@@ -78,6 +78,7 @@ with(raw1,
 legend("topright", 
        lty = c(1,1,1), 
        col = c("black","red","blue"), 
+       bty = "n",
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 # Sub-plot 4 (bottom-right) 
